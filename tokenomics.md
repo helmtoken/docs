@@ -6,5 +6,3 @@
 * each mint gets assigned a C Rank, you may mint multiple times
 * there is a global C Rank which tracks the number of total mints
 * you earn a bonus reward from the global C Rank subtracted by your mint's C Rank, to determine how many mints came after yours, and reward is calculated against the amount you minted and the number of mints that came after you (full reward formula details to be announced)
-
-_Staking details pending_
