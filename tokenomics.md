@@ -1,6 +1,6 @@
 # Tokenomics
 
-* to mint Helm, you must lock up your XEN - when locking period is over, you get your XEN back
+* to mint Helm, you must lock up your XEN for 6 years - when locking period is over, you get your XEN back
 * on day 1 for each 1,000,000 XEN locked, you get to mint 100 HELM
 * every following day, the rate of HELM you can mint goes down by 0.1369863013698630136986301369863 (100/730(2 years))
 * inflation rate is fixed to golden ratio 1.618033988749894848
