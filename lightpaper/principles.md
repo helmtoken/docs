@@ -1,3 +1,7 @@
+---
+description: First crypto principles driven cryptocurrency
+---
+
 # Principles
 
 1. Immutable
