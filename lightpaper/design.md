@@ -1,4 +1,26 @@
-# Architecture
+# Design
+
+#### Architecture
+
+<img src=".gitbook/assets/image.png" alt="" data-size="original">
+
+#### Source code control
+
+```mermaid
+gitGraph:
+    commit "Ashish"
+    branch newbranch
+    checkout newbranch
+    commit id:"1111"
+    commit tag:"test"
+    checkout main
+    commit type: HIGHLIGHT
+    commit
+    merge newbranch
+    commit
+    branch b2
+    commit
+```
 
 #### End to end flow
 
