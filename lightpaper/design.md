@@ -1,28 +1,20 @@
 # Design
 
-#### Architecture
+### Architecture stack
 
-<img src=".gitbook/assets/image.png" alt="" data-size="original">
+**Software**
 
-#### Source code control
+code - EVM code
 
-```mermaid
-gitGraph:
-    commit "Ashish"
-    branch newbranch
-    checkout newbranch
-    commit id:"1111"
-    commit tag:"test"
-    checkout main
-    commit type: HIGHLIGHT
-    commit
-    merge newbranch
-    commit
-    branch b2
-    commit
-```
+virtual machine - Ethereum Virtual Machine (EVM)
 
-#### End to end flow
+runtime system (process) - Ethereum node (Geth, Parity, etc.)
+
+**Hardware**
+
+physical processor (x68, ARM, etc.)
+
+### End to end flow
 
 ```mermaid
 sequenceDiagram
@@ -46,7 +38,7 @@ sequenceDiagram
     Helm->>User: Mints HLM
 ```
 
-#### Contract flow
+### Contract flow
 
 ```mermaid
 sequenceDiagram
