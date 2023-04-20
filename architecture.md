@@ -13,13 +13,13 @@ sequenceDiagram
         Helm->>Staking: Ended stake with penalty
     else ends on time
         User->>Helm: Request to end stake
-        Helm->>Staking: Ended stake with no penalty
+        Helm->>Staking: Ended stake
     else ends late
         User->>Helm: Request to end stake
         Helm->>Staking: Ended stake with penalty
     else defers
         User->>Helm: Request to defer stake
-        Helm->>Staking: Deferred stake with penalty
+        Helm->>Staking: Deferred stake
     end
     Helm->>User: Mint
 ```
