@@ -21,7 +21,7 @@ sequenceDiagram
         User->>Helm: Request to defer stake
         Helm->>Staking: Deferred stake
     end
-    Helm->>User: Mint HLM
+    Helm->>User: Mints HLM
 ```
 
 #### Contract flow
