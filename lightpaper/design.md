@@ -1,6 +1,6 @@
 # Design
 
-### Architecture stack
+### Architecture
 
 **Software**
 
@@ -14,7 +14,7 @@ runtime system (process) - Ethereum node (Geth, Parity, etc.)
 
 physical processor (x68, ARM, etc.)
 
-### End to end flow
+### User flow
 
 ```mermaid
 sequenceDiagram
