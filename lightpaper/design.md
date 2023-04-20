@@ -42,10 +42,10 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-    Deployer->>EVM: Trigger ERC20 contract deployment
-    EVM->>ERC20 Contract: Create ERC20 contract
     Deployer->>EVM: Trigger Helm contract deployment
-    EVM->>Helm Contract: Create Helm contract
-    User-->>Helm Contract: Interacts
-    Helm Contract-->>ERC20 Contract: Interacts
+    EVM->>Helm contract: Create Helm contract
+    Helm contract->>EVM: Trigger ERC20 contract deployment
+    EVM->>ERC20 contract: Create ERC20 contract
+    User-->>Helm contract: Interacts
+    Helm contract-->>ERC20 contract: Interacts
 ```
