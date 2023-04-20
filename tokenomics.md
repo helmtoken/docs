@@ -6,5 +6,5 @@
 * inflation rate is fixed to golden ratio 1.618033988749894848
 * each mint gets assigned a C Rank, you may mint multiple times
 * there is a global C Rank which tracks the number of total mints
-* you earn a bonus reward from the global C Rank subtracted by your mint's C Rank, to determine how many mints came after yours, and reward is calculated against the amount you minted and the number of mints that came after you (full reward formula details to be announced)
+* you earn a bonus reward from the global C Rank subtracted by your mint's C Rank, to determine how many mints came after yours, and reward is calculated against the amount you minted and the number of mints that came after you
 * your bonus reward may be claimed after 730 days, or 2 years, from the genesis date of the contract
