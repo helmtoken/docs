@@ -8,20 +8,20 @@ sequenceDiagram
     Helm->>User: Mints HLM
     User->>Helm: Stakes HLM
     Helm->>Staking: Started stake
-    alt ends early
-        User->>Helm: Request to end stake
+    alt
+        User->>Helm: Request to end stake early
         Helm->>Staking: Ended stake with penalty
-    else ends on time
-        User->>Helm: Request to end stake
+    else
+        User->>Helm: Request to end stake on time
         Helm->>Staking: Ended stake
-    else ends late
-        User->>Helm: Request to end stake
+    else
+        User->>Helm: Request to end stake late
         Helm->>Staking: Ended stake with penalty
-    else defers
+    else
         User->>Helm: Request to defer stake
         Helm->>Staking: Deferred stake
     end
-    Helm->>User: Mint
+    Helm->>User: Mint HLM
 ```
 
 #### Contract flow
