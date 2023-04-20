@@ -1,8 +1,8 @@
 # Tokenomics
 
-* In order to mint your Helm (**HLM**), you must lock up your **XEN** for 6 years - you will get your XEN back when locking period is over
-* on day 1 for each 1,000,000 **XEN** locked, you get to mint 100 **HLM** - or for each 10,000 **XEN** you lock up, you get 1 **HLM**
-* every following day, the rate of **HLM** you can mint goes down by 100 / 730 days (2 years) = 0.1369863013698630136986301369863
+* In order to mint your Helm (**HLM**), you must lock up your XEN Crypto (**XEN**) for 6 years - you will get your **XEN** back when your locking period is over
+* on day 1 for each 1,000,000 **XEN** locked, you get to mint 100 **HLM** - or in other words, for each 10,000 **XEN** you lock up, you get 1 **HLM**
+* every following day, the rate of **HLM** you can mint goes down by 100 / 730 days (2 years) = 0.1369863013698630136986301369863 until it is not possible to mint any more **HLM** by locking up **XEN** ever again
 * inflation rate is fixed to golden ratio 1.618033988749894848
 * each mint gets assigned a C Rank, you may mint multiple times
 * there is a global C Rank which tracks the number of total mints
