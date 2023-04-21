@@ -1,7 +1,7 @@
 # Features
 
-* starts at 0 supply, is inflationary
-* allows burn
-* to mint, lock up XEN, then get your XEN back after lock period is over
-* staking
-* earlier minters get better rates, like XEN's C Rank
+* [x] Starts at zero supply, is inflationary
+* [x] Allows burn
+* [x] Offers a rewards feature, referred to as staking
+* [x] Minters get bonus rewards for newcomers
+* [x] Shariah-compliant
