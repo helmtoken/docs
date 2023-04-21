@@ -46,6 +46,4 @@ sequenceDiagram
     EVM->>Helm contract: Create Helm contract
     Helm contract->>EVM: Trigger ERC20 contract deployment
     EVM->>ERC20 contract: Create ERC20 contract
-    User-->>Helm contract: Interacts
-    Helm contract-->>ERC20 contract: Interacts
 ```
