@@ -4,6 +4,7 @@
 
 * Helm is inflationary via staking
 * The max stake length is 8400 days (23 years)
+* Stakes can be started, ended on time, ended early, ended late, and deferred
 
 ### Inflation
 
