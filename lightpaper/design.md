@@ -2,17 +2,17 @@
 
 ### Architecture
 
-**Software**
+![](<.gitbook/assets/Untitled Diagram.drawio (2).png>)
 
 code - EVM code
 
+![](<.gitbook/assets/Untitled Diagram.drawio (1).png>)
+
 virtual machine - Ethereum Virtual Machine (EVM)
 
+![](<.gitbook/assets/Untitled Diagram.drawio.png>)
+
 runtime system (process) - Ethereum node (Geth, Parity, etc.)
-
-**Hardware**
-
-physical processor (x68, ARM, etc.)
 
 ### User flow
 
