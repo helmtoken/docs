@@ -5,10 +5,11 @@
 * Helm is inflationary via staking
 * The max stake length is 8400 days (23 years)
 * Stakes can be started, ended on time, ended early, ended late, and deferred
+* A Big-pay-day happens every 4 years, which serves as a staking amplifier on that day
 
 ### Inflation
 
-Inflation is a product paid to stakers for minting new tokens through staking. The rate of inflation is fixed to φ, the golden ratio. Apart from the first 2 years since the genesis of Helm, which allows users to mint Helm by locking up XEN and earn bonus rewards, the only way to produce more Helm is by staking.
+Inflation is paid to stakers for minting new tokens through staking. The rate of inflation is fixed to φ, the golden ratio. Apart from the first 2 years since the genesis of Helm, which allows users to mint Helm by locking up XEN Crypto and earn bonus rewards, the only way to produce more Helm is with staking.
 
 $$
 inflationRate = 1.618033988749894848
