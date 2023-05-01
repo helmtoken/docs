@@ -5,7 +5,7 @@
 * Helm is inflationary via staking
 * The max stake length is 8400 days (23 years)
 * Stakes can be started, ended on time, ended early, ended late, and deferred
-* Every 4 years, a Big Pay Day occurs, which serves as a 2x staking amplifier on that day
+* Every 4 years since genesis, a Big Pay Day occurs, meaning 2x staking amplifier on that day
 
 ### Inflation
 
